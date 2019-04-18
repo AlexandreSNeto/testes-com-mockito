@@ -319,8 +319,6 @@ Pessoa pessoaCompleta = PessoaFixture.get().completo().build();
     }
     ``` 
 
-- CustomAnswer
-
 ## Referências
 
 - [7 Popular Unit Test Naming Conventions](https://dzone.com/articles/7-popular-unit-test-naming)
