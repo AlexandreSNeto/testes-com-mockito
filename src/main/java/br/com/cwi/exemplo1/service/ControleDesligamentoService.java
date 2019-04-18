@@ -1,9 +1,9 @@
-package br.com.cwi.service;
+package br.com.cwi.exemplo1.service;
 
-import br.com.cwi.dao.ControleDesligamentoDAO;
-import br.com.cwi.datatype.ControleDesligamentoVO;
-import br.com.cwi.datatype.StatusProcessamento;
-import br.com.cwi.datatype.TipoMovimentacao;
+import br.com.cwi.exemplo1.dao.ControleDesligamentoDAO;
+import br.com.cwi.exemplo1.datatype.ControleDesligamentoVO;
+import br.com.cwi.exemplo1.datatype.StatusProcessamento;
+import br.com.cwi.exemplo1.datatype.TipoMovimentacao;
 
 import java.math.BigDecimal;
 import java.util.Date;

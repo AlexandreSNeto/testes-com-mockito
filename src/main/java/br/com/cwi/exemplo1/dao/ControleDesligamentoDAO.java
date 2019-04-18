@@ -1,6 +1,6 @@
-package br.com.cwi.dao;
+package br.com.cwi.exemplo1.dao;
 
-import br.com.cwi.datatype.ControleDesligamentoVO;
+import br.com.cwi.exemplo1.datatype.ControleDesligamentoVO;
 
 import java.math.BigDecimal;
 

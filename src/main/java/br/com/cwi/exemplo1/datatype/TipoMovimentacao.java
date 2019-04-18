@@ -1,4 +1,4 @@
-package br.com.cwi.datatype;
+package br.com.cwi.exemplo1.datatype;
 
 public enum TipoMovimentacao {
 
