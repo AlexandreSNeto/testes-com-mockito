@@ -302,7 +302,7 @@ Pessoa pessoaCompleta = PessoaFixture.get().completo().build();
         thrown.expectMessage(containsString("Bad bad server, no donut for you."));
     }
     ```
-
+    
 - `@Captor`
 
     Permite capturar e obter a instância de um objeto criado (e não retornado) dentro do método testado.
