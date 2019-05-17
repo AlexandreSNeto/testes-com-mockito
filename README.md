@@ -237,12 +237,12 @@ Pessoa pessoaCompleta = PessoaFixture.get().completo().build();
   Permite definir o que deve acontecer quando um determinado mock for chamado pelo método que está sendo testado.
   
   Exemplos
-    - `Mockito.when(pessoaDAO.buscar(1).thenReturn(new Pessoa());`
-    - `Mockito.when(pessoaDAO.buscar(1).thenReturn(null);`
+    - `Mockito.when(pessoaDAO.buscar(1)).thenReturn(new Pessoa());`
+    - `Mockito.when(pessoaDAO.buscar(1)).thenReturn(null);`
       
   Variações auto explicativas
-    - `Mockito.thenThrow(new CustomException())`
-    - `Mockito.thenCallRealMethod()`
+    - `Mockito.when(...).thenThrow(new CustomException())`
+    - `Mockito.when(...).thenCallRealMethod()`
  
 - `Mockito.any()` / `Mockito.anyString|Int|Boolean|etc()` / `Mockito.any(SomeType.class)`
 
